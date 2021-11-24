@@ -2,26 +2,26 @@
 #
 # Obtén lo último de https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll] ibrary/
-/[Tt] emp/
-/[Oo] bj/
-/[Bb] uild/
-/[Bb] uilds/
-/[Ll] ogs/
-/[Uu] ser[Ss]ettings/
+[Ll] ibrary/
+[Tt] emp/
+[Oo] bj/
+[Bb] uild/
+[Bb] uilds/
+[Ll] ogs/
+[Uu] ser[Ss]ettings/
 
 # MemoryCaptures puede tener un tamaño excesivo.
 # También podrían contener datos extremadamente sensibles.
-/[Mm] emoryCaptures/
+[Mm] emoryCaptures/
 
 # Los metadatos de los activos solo deben ignorarse cuando también se ignora el activo correspondiente
-! /[Aa]ssets/**/*.meta
+[Aa]ssets/**/*.meta
 
 # Quite los comentarios de esta línea si desea ignorar el complemento de herramientas de la tienda de activos
 # /[Aa]ssets/AssetStoreTools*
 
 # Plugin Jetbrains Rider autogenerado
-/[Aa] ssets/Plugins/Editor/JetBrains*
+[Aa] ssets/Plugins/Editor/JetBrains*
 
 # Directorio de caché de Visual Studio
 .vs/
@@ -64,8 +64,8 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Direccionables empaquetados
-/[Aa] ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+[Aa] ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Activos temporales de Android generados automáticamente
-/[Aa] ssets/[Ss]treamingAssets/aa.meta
-/[Aa] ssets/[Ss]treamingAssets/aa/*
+[Aa] ssets/[Ss]treamingAssets/aa.meta
+[Aa] ssets/[Ss]treamingAssets/aa/*
